@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/pabloortegaa.com-2.0/static/css/main.995ce02b.css",
-    "main.js": "/pabloortegaa.com-2.0/static/js/main.4f123e1a.js",
+    "main.js": "/pabloortegaa.com-2.0/static/js/main.5a17deec.js",
     "static/js/787.27ca2965.chunk.js": "/pabloortegaa.com-2.0/static/js/787.27ca2965.chunk.js",
     "static/media/herovideo.mp4": "/pabloortegaa.com-2.0/static/media/herovideo.93e5dd0d0c34c6509f4c.mp4",
     "static/media/AboutMe2.jpg": "/pabloortegaa.com-2.0/static/media/AboutMe2.ee93fc0c17d80163ac80.jpg",
+    "static/media/Pablo-Ortega-Resume.pdf": "/pabloortegaa.com-2.0/static/media/Pablo-Ortega-Resume.0652d28bcda725236c05.pdf",
     "static/media/presencenew.jpg": "/pabloortegaa.com-2.0/static/media/presencenew.91ccdbf6b6dbbc972f00.jpg",
     "static/media/countryStatsProj.jpg": "/pabloortegaa.com-2.0/static/media/countryStatsProj.8c95c1281b98a592e038.jpg",
     "static/media/fg.jpg": "/pabloortegaa.com-2.0/static/media/fg.b72175fc813eb49a17d6.jpg",
@@ -16,11 +17,11 @@
     "static/media/blueCrystal.png": "/pabloortegaa.com-2.0/static/media/blueCrystal.d746474e4089e60186f9.png",
     "index.html": "/pabloortegaa.com-2.0/index.html",
     "main.995ce02b.css.map": "/pabloortegaa.com-2.0/static/css/main.995ce02b.css.map",
-    "main.4f123e1a.js.map": "/pabloortegaa.com-2.0/static/js/main.4f123e1a.js.map",
+    "main.5a17deec.js.map": "/pabloortegaa.com-2.0/static/js/main.5a17deec.js.map",
     "787.27ca2965.chunk.js.map": "/pabloortegaa.com-2.0/static/js/787.27ca2965.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.995ce02b.css",
-    "static/js/main.4f123e1a.js"
+    "static/js/main.5a17deec.js"
   ]
 }
