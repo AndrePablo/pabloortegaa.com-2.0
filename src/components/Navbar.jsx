@@ -13,6 +13,7 @@ import { CgGitFork } from "react-icons/cg";
 import { Row, Col } from "react-bootstrap";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import resume from "../assets/Pablo-Ortega-Resume.pdf";
 
 function Navbar() {
   const [mobileDropDown, setMobileDropDown] = useState(false);
@@ -86,7 +87,7 @@ function Navbar() {
               <li className="nav-link">
                 <a href="#">
                   <AiOutlineFundProjectionScreen />
-                  <Link to="/">Projects</Link>
+                  <Link to="/pabloortegaa.com-2.0">Projects</Link>
                 </a>
                 <div className="underline"></div>
               </li>
@@ -116,7 +117,7 @@ function Navbar() {
               </li>
 
               <li className="nav-link">
-                <a href="#">
+                <a href={resume} target="_blank">
                   <CgFileDocument />
                   Resume
                 </a>

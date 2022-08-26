@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/pabloortegaa.com-2.0" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/experience" element={<Experience />} />
           <Route exact path="/resume" element={<Resume />} />
