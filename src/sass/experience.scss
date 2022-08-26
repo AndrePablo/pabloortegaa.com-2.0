@@ -1,0 +1,46 @@
+.card {
+  background-color: black;
+  color: white;
+}
+
+.experience-card {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-color: white;
+  border-style: groove;
+
+  .image {
+    max-width: 70px;
+  }
+
+  .button.is-white {
+    &:hover {
+      background-color: white;
+    }
+  }
+
+  h1.title {
+    margin-bottom: 5px;
+    font-size: $size-5;
+    color: white;
+  }
+
+  ul {
+    margin-left: 1.2rem;
+  }
+
+  li {
+    list-style-type: circle;
+    font-size: 0.92rem;
+    max-width: 1100px;
+  }
+}
+
+.h1-experience {
+  font-size: 50px;
+  text-align: center;
+  margin-top: -50px;
+  font-weight: 500;
+  color: white;
+  opacity: 0.7;
+}

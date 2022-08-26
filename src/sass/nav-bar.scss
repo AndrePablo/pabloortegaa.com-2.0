@@ -1,0 +1,86 @@
+$navbar-border-height: 1.1rem;
+
+a {
+  outline: none;
+}
+
+body,
+html {
+  margin: 0;
+  font-family: Roboto, Arial, helvetica, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+  background-color: black;
+
+  #navbar-item-name {
+    border-right: 1px solid white;
+    padding-top: $navbar-padding-vertical - $navbar-border-height;
+    padding-bottom: $navbar-padding-vertical - $navbar-border-height;
+    margin-top: $navbar-border-height;
+    margin-bottom: $navbar-border-height;
+  }
+
+  .section-link {
+    padding: 0;
+    margin-left: $size-7;
+    &:hover {
+      border-bottom: 1px solid white;
+      color: white;
+    }
+  }
+}
+
+.navbar-container {
+  text-align: center;
+  padding: 10px;
+  font-size: 0;
+}
+
+.navbar-container ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar-container ul li {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.navbar-container ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: color 0.5s;
+}
+
+.navbar-container ul li .underline {
+  height: 3px;
+  background-color: transparent;
+  width: 0%;
+  transition: width 0.2s, background-color 0.5s;
+  margin: 0 auto;
+}
+
+.navbar-container ul li:hover .underline {
+  background-color: blue;
+  width: 100%;
+}
+
+.navbar-container ul li:active a {
+  transition: none;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.navbar-container ul li:active .underline {
+  transition: none;
+  background-color: rgba(255, 255, 255, 0.76);
+}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+
+// $background: white;
+// $primary: black;
+// $card-background-color: white;
+
+$navbar-breakpoint: $tablet;
+
+@import "common";
+@import "nav-bar";
+@import "home-route";
+@import "about";
+@import "experience";
+@import "projects";
+@import "footer";

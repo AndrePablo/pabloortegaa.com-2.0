@@ -1,0 +1,73 @@
+.project-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
+
+.project-card-view {
+  box-shadow: 0 4px 5px 3px rgba(49, 59, 173, 0.985) !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(49, 59, 173, 0.985) !important;
+}
+
+.card-img-top {
+  padding: 20px !important;
+  // opacity: 0.9 !important;
+  border-radius: 10px !important;
+  height: 350px;
+  width: 450px;
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: blue !important;
+  border-color: blue !important;
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.project-heading {
+  color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
+
+.h1-project {
+  font-size: 12px;
+  text-align: center;
+  margin-top: -50px;
+  font-weight: 500;
+  color: blue;
+  opacity: 0.9;
+}
+
+.h2-project {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+}
+
+.p-project {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+}

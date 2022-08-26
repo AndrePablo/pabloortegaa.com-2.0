@@ -1,17 +1,33 @@
 {
+  "home": "http://AndrePablo.github.io/pabloortegaa.com-2.0",
   "name": "portfoliowebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
+    "bjorklund-js": "^0.1.2",
+    "font-awesome": "^4.7.0",
+    "pizzicato": "^0.6.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-pose": "^4.0.10",
+    "react-rounded-image": "^2.0.14",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-waypoint": "^10.1.0",
+    "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +50,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "gh-pages": "^3.2.3",
+    "sass": "^1.52.3"
   }
 }
